@@ -115,7 +115,7 @@ export const TodoMain = (props: todos) => {
             <RadioGroup
               row
               aria-labelledby="demo-row-radio-buttons-group-label"
-              // name="gender"
+              name="gender-group"
               onChange={handleChange}
               value={values.gender}
             >

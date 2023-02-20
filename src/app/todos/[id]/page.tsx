@@ -12,7 +12,7 @@ const getSingleTodo = async (id: any) => {
 export default async function Page(props: any) {
   const todoId = props.params.id;
   const isEdit = props.searchParams.isEdit;
-  // // Fetch data directly in a Server Component
+  // Fetch data directly in a Server Component
   const singleTodo = await getSingleTodo(todoId);
   return (
     <div

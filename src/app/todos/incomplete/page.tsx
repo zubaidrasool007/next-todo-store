@@ -8,13 +8,6 @@ const getInompletedTodos = async () => {
   const incompleteTodosData = await axios.get(url).then((res) => res.data);
   return incompleteTodosData;
 };
-// export const page = async () => {
-//   const todoData = await getTodos();
-//   return (
-//     <div>
-//     </div>
-//   );
-// };
 
 export default async function Page() {
   // Fetch data directly in a Server Component
